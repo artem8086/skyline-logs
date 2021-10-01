@@ -1,0 +1,423 @@
+I0EmuMainLogging started
+D4EmuMainCreateInstance: Vulkan Layers:
+D4EmuMainCreateInstance: Vulkan Instance Extensions:
+* VK_KHR_surface (v0.0.25)
+* VK_KHR_android_surface (v0.0.6)
+* VK_EXT_swapchain_colorspace (v0.0.4)
+* VK_KHR_get_surface_capabilities2 (v0.0.1)
+* VK_EXT_debug_report (v0.0.9)
+* VK_KHR_get_physical_device_properties2 (v0.0.1)
+* VK_KHR_external_semaphore_capabilities (v0.0.1)
+* VK_KHR_external_memory_capabilities (v0.0.1)
+* VK_KHR_device_group_creation (v0.0.1)
+* VK_KHR_external_fence_capabilities (v0.0.1)
+I17EmuMainCreateDevice: Vulkan Device:
+Name: Adreno (TM) 640
+Type: IntegratedGpu
+Vulkan Version: 1.1.128
+Driver Version: 512.502.0
+Queues:
+* 3xGC--P: TSB48 MIG(1x1x1) <--
+Extensions:
+* VK_KHR_incremental_present (v0.0.1)
+* VK_EXT_hdr_metadata (v0.0.2)
+* VK_KHR_shared_presentable_image (v0.0.1)
+* VK_GOOGLE_display_timing (v0.0.1)
+* VK_EXT_subgroup_size_control (v0.0.2)
+* VK_KHR_external_memory (v0.0.1)
+* VK_EXT_pipeline_creation_feedback (v0.0.1)
+* VK_KHR_shader_float16_int8 (v0.0.1)
+* VK_KHR_get_memory_requirements2 (v0.0.1)
+* VK_KHR_spirv_1_4 (v0.0.1)
+* VK_EXT_fragment_density_map (v0.0.1)
+* VK_KHR_external_semaphore_fd (v0.0.1)
+* VK_QCOM_render_pass_store_ops (v0.0.2)
+* VK_KHR_external_memory_fd (v0.0.1)
+* VK_QCOM_render_pass_shader_resolve (v0.0.4)
+* VK_KHR_maintenance1 (v0.0.1)
+* VK_KHR_maintenance2 (v0.0.1)
+* VK_KHR_maintenance3 (v0.0.1)
+* VK_KHR_separate_depth_stencil_layouts (v0.0.1)
+* VK_KHR_buffer_device_address (v0.0.1)
+* VK_EXT_queue_family_foreign (v0.0.1)
+* VK_KHR_bind_memory2 (v0.0.1)
+* VK_KHR_external_semaphore (v0.0.1)
+* VK_EXT_scalar_block_layout (v0.0.1)
+* VK_KHR_sampler_ycbcr_conversion (v0.0.1)
+* VK_EXT_vertex_attribute_divisor (v0.0.3)
+* VK_KHR_variable_pointers (v0.0.1)
+* VK_KHR_push_descriptor (v0.0.1)
+* VK_EXT_device_memory_report (v0.0.1)
+* VK_KHR_device_group (v0.0.2)
+* VK_KHR_relaxed_block_layout (v0.0.1)
+* VK_KHR_external_fence (v0.0.1)
+* VK_EXT_host_query_reset (v0.0.1)
+* VK_EXT_index_type_uint8 (v0.0.1)
+* VK_KHR_multiview (v0.0.1)
+* VK_KHR_storage_buffer_storage_class (v0.0.1)
+* VK_KHR_shader_subgroup_extended_types (v0.0.1)
+* VK_EXT_pipeline_creation_cache_control (v0.0.1)
+* VK_EXT_separate_stencil_usage (v0.0.1)
+* VK_KHR_image_format_list (v0.0.1)
+* VK_EXT_sampler_filter_minmax (v0.0.1)
+* VK_QCOM_render_pass_transform (v0.0.1)
+* VK_KHR_create_renderpass2 (v0.0.1)
+* VK_KHR_depth_stencil_resolve (v0.0.1)
+* VK_KHR_shader_float_controls (v0.0.4)
+* VK_EXT_texture_compression_astc_hdr (v0.0.1)
+* VK_EXT_global_priority (v0.0.2)
+* VK_KHR_shader_draw_parameters (v0.0.1)
+* VK_KHR_vulkan_memory_model (v0.0.3)
+* VK_EXT_line_rasterization (v0.0.1)
+* VK_KHR_descriptor_update_template (v0.0.1)
+* VK_KHR_draw_indirect_count (v0.0.1)
+* VK_KHR_driver_properties (v0.0.1)
+* VK_KHR_uniform_buffer_standard_layout (v0.0.1)
+* VK_ANDROID_external_memory_android_hardware_buffer (v0.0.3)
+* VK_KHR_dedicated_allocation (v0.0.1)
+* VK_KHR_swapchain (v0.0.70)
+* VK_KHR_sampler_mirror_clamp_to_edge (v0.0.1)
+* VK_KHR_external_fence_fd (v0.0.1)
+I150EmuMainLaunching ROM content://com.android.externalstorage.documents/tree/primary%3Aswitch/document/primary%3Aswitch%2Fttt2.nro
+D158EmuMainLoadExecutable: Successfully mapped section .patch @ 0x800000000, Size = 0x1000
+D158EmuMainLoadExecutable: Successfully mapped section .text @ 0x800001000, Size = 0xF000
+D159EmuMainLoadExecutable: Successfully mapped section .rodata @ 0x800010000, Size = 0x3000
+D159EmuMainLoadExecutable: Successfully mapped section .data + .bss @ 0x800013000, Size = 0xA000
+D159EmuMainInitializeRegions: Region Map:
+VMM Base: 0x800000000
+Code Region: 0x800000000 - 0x800200000 (Size: 0x200000)
+Alias Region: 0x800200000 - 0x1800200000 (Size: 0x1000000000)
+Heap Region: 0x1800200000 - 0x1980200000 (Size: 0x180000000)
+Stack Region: 0x1980200000 - 0x1A00200000 (Size: 0x80000000)
+TLS/IO Region: 0x1A00200000 - 0x2A00200000 (Size: 0x1000000000)
+D159EmuMainExecute: Starting main HOS thread
+D159EmuMainGetOptimalCoreForThread: Load Balancing T0: C0 (Early)
+D159HOS-0GetInfo: ID0: 12, ID1: 0, Out: 0x800000000
+D159HOS-0GetInfo: ID0: 13, ID1: 0, Out: 0x2300000000
+D159HOS-0GetInfo: ID0: 2, ID1: 0, Out: 0x800200000
+D159HOS-0GetInfo: ID0: 3, ID1: 0, Out: 0x1000000000
+D159HOS-0GetInfo: ID0: 4, ID1: 0, Out: 0x1800200000
+D159HOS-0GetInfo: ID0: 5, ID1: 0, Out: 0x180000000
+D159HOS-0GetInfo: ID0: 14, ID1: 0, Out: 0x1980200000
+D159HOS-0GetInfo: ID0: 15, ID1: 0, Out: 0x80000000
+D159HOS-0GetInfo: ID0: 6, ID1: 0, Out: 0xF8000000
+D159HOS-0GetInfo: ID0: 7, ID1: 0, Out: 0x601000
+D159HOS-0SetHeapSize: Allocated at 0x1800200000 - 0x18F7800000 (0xF7600000 bytes)
+D159HOS-0QueryMemory: Address: 0x80001D000, Region Start: 0x80001D000, Size: 0x10001E3000, Type: 0x0, Is Uncached: false, Permissions: ---
+D159HOS-0ConnectToNamedPort: Connecting to port 'sm:' at 0xD006
+D159HOS-0Service: IUserInterface::GetService
+D159HOS-0Service: IUserInterface::GetService
+D159HOS-0NewService: Service has been created: "am::IApplicationProxyService" (0xD007)
+D159HOS-0Service: IApplicationProxyService::OpenApplicationProxy
+D159HOS-0RegisterService: Service has been registered: "am::IApplicationProxy" (0xD008)
+D159HOS-0Service: IApplicationProxy::GetApplicationFunctions
+D159HOS-0RegisterService: Service has been registered: "am::IApplicationFunctions" (0xD009)
+D159HOS-0Service: IApplicationProxy::GetLibraryAppletCreator
+D159HOS-0RegisterService: Service has been registered: "am::ILibraryAppletCreator" (0xD00A)
+D159HOS-0Service: IApplicationProxy::GetCommonStateGetter
+I159HOS-0ICommonStateGetter: Switch to mode: Docked
+D159HOS-0RegisterService: Service has been registered: "am::ICommonStateGetter" (0xD00B)
+D159HOS-0Service: IApplicationProxy::GetSelfController
+D159HOS-0RegisterService: Service has been registered: "am::ISelfController" (0xD00C)
+D159HOS-0Service: IApplicationProxy::GetWindowController
+D159HOS-0RegisterService: Service has been registered: "am::IWindowController" (0xD00D)
+D159HOS-0Service: IWindowController::GetAppletResourceUserId
+D159HOS-0Service: IApplicationProxy::GetAudioController
+D159HOS-0RegisterService: Service has been registered: "am::IAudioController" (0xD00E)
+D159HOS-0Service: IApplicationProxy::GetDisplayController
+D159HOS-0RegisterService: Service has been registered: "am::IDisplayController" (0xD00F)
+D159HOS-0Service: IApplicationProxy::GetDebugFunctions
+D159HOS-0RegisterService: Service has been registered: "am::IDebugFunctions" (0xD010)
+D159HOS-0Service: ICommonStateGetter::GetEventHandle
+D159HOS-0GetEventHandle: Applet Event Handle: 0xD011
+D159HOS-0WaitSynchronization: Waiting on 0xD011 for -1ns
+D159HOS-0WaitSynchronization: Signalled 0xD011
+D159HOS-0Service: ICommonStateGetter::ReceiveMessage
+D159HOS-0Service: ICommonStateGetter::GetCurrentFocusState
+D159HOS-0Service: IWindowController::AcquireForegroundRights
+D159HOS-0Service: ISelfController::SetFocusHandlingMode
+D159HOS-0GetInfo: ID0: 12, ID1: 0, Out: 0x800000000
+D159HOS-0GetInfo: ID0: 18, ID1: 0, Out: 0x0
+D159HOS-0GetInfo: ID0: 19, ID1: 0, Out: 0x0
+D159HOS-0Service: ISelfController::SetOutOfFocusSuspendingEnabled
+D159HOS-0Service: IApplicationFunctions::NotifyRunning
+D159HOS-0Service: ICommonStateGetter::GetOperationMode
+D159HOS-0Service: ICommonStateGetter::GetPerformanceMode
+D159HOS-0Service: ISelfController::SetOperationModeChangedNotification
+D159HOS-0Service: ISelfController::SetPerformanceModeChangedNotification
+D159HOS-0Service: IUserInterface::GetService
+W160HOS-0GetService: Service has not been implemented: "apm:p"
+D160HOS-0Service: IUserInterface::GetService
+D160HOS-0NewService: Service has been created: "apm::IManager" (0xD012)
+D160HOS-0Service: IManager::OpenSession
+D160HOS-0RegisterService: Service has been registered: "apm::ISession" (0xD013)
+D160HOS-0Service: IUserInterface::GetService
+D160HOS-0NewService: Service has been created: "hid::IHidServer" (0xD014)
+D160HOS-0Service: IHidServer::CreateAppletResource
+D160HOS-0RegisterService: Service has been registered: "hid::IAppletResource" (0xD015)
+D160HOS-0Service: IAppletResource::GetSharedMemoryHandle
+D160HOS-0GetSharedMemoryHandle: HID Shared Memory Handle: 0xD016
+D160HOS-0QueryMemory: Address: 0x800000000, Region Start: 0x0, Size: 0x800001000, Type: 0x10, Is Uncached: false, Permissions: ---
+D160HOS-0QueryMemory: Address: 0x800002000, Region Start: 0x800001000, Size: 0xF000, Type: 0x3, Is Uncached: false, Permissions: R-X
+D160HOS-0QueryMemory: Address: 0x800011000, Region Start: 0x800010000, Size: 0x3000, Type: 0x3, Is Uncached: false, Permissions: R--
+D160HOS-0QueryMemory: Address: 0x800014000, Region Start: 0x800013000, Size: 0xA000, Type: 0x4, Is Uncached: false, Permissions: RW-
+D160HOS-0QueryMemory: Address: 0x80001E000, Region Start: 0x80001D000, Size: 0x10001E3000, Type: 0x0, Is Uncached: false, Permissions: ---
+D160HOS-0MapSharedMemory: Mapping shared memory at 0x80001E000 - 0x80005E000 (0x40000 bytes) (R--)
+D160HOS-0Service: IUserInterface::GetService
+D160HOS-0NewService: Service has been created: "fssrv::IFileSystemProxy" (0xD017)
+D160HOS-0Service: IFileSystemProxy::SetCurrentProcess
+D160HOS-0Service: IFileSystemProxy::OpenSdCardFileSystem
+D160HOS-0RegisterService: Service has been registered: "fssrv::IFileSystem" (0xD018)
+D162HOS-0Service: IUserInterface::GetService
+D162HOS-0NewService: Service has been created: "visrv::IManagerRootService" (0xD019)
+D162HOS-0Service: IManagerRootService::GetDisplayService
+D162HOS-0RegisterService: Service has been registered: "visrv::IApplicationDisplayService" (0xD01A)
+D162HOS-0Service: IApplicationDisplayService::GetRelayService
+D162HOS-0RegisterService: Service has been registered: "hosbinder::IHOSBinderDriver" (0xD01B)
+D162HOS-0Service: IApplicationDisplayService::GetSystemDisplayService
+D162HOS-0RegisterService: Service has been registered: "visrv::ISystemDisplayService" (0xD01C)
+D162HOS-0Service: IApplicationDisplayService::GetManagerDisplayService
+D162HOS-0RegisterService: Service has been registered: "visrv::IManagerDisplayService" (0xD01D)
+D162HOS-0Service: IApplicationDisplayService::GetIndirectDisplayTransactionService
+D162HOS-0RegisterService: Service has been registered: "hosbinder::IHOSBinderDriver" (0xD01E)
+D162HOS-0Service: IApplicationDisplayService::OpenDisplay
+D162HOS-0OpenDisplay: Opening display: Default
+D162HOS-0Service: IApplicationDisplayService::GetDisplayVsyncEvent
+D162HOS-0GetDisplayVsyncEvent: V-Sync Event Handle: 0xD01F
+D162HOS-0Service: IApplicationDisplayService::CreateStrayLayer
+D162HOS-0CreateStrayLayer: Creating Stray Layer #1 on Display: Default
+D162HOS-0Service: IApplicationDisplayService::SetLayerScalingMode
+D162HOS-0SetLayerScalingMode: Setting Layer Scaling mode to '2' for layer 1
+D162HOS-0Service: IHOSBinderDriver::AdjustRefcount
+D162HOS-0AdjustRefcount: Reference Change: 1 weak reference (S-2147483648 W2)
+D162HOS-0Service: IHOSBinderDriver::AdjustRefcount
+D162HOS-0AdjustRefcount: Reference Change: 1 strong reference (S1 W2)
+D162HOS-0Service: IHOSBinderDriver::GetNativeHandle
+D162HOS-0GetNativeHandle: Display Buffer Event Handle: 0xD020
+D162HOS-0SyncRequestHandler: Control IPC Message: 0x3
+D162HOS-0Service: IUserInterface::GetService
+D162HOS-0NewService: Service has been created: "nvdrv::INvDrvServices" (0xD021)
+D162HOS-0SyncRequestHandler: Control IPC Message: 0x3
+D165HOS-0CreateTransferMemory: Creating transfer memory at 0x1800586000 - 0x1800886000 (0x300000 bytes) (---)
+D165HOS-0Service: INvDrvServices::Initialize
+D165HOS-0Service: INvDrvServices::SetAruid
+D165HOS-0Service: IHOSBinderDriver::TransactParcel
+D165HOS-0Connect: API: CPU, Producer Controlled By App: false, Default Dimensions: 1x1, Transform Hint: Rotate90, Pending Buffer Count: 0
+D169HOS-0Service: INvDrvServices::Open
+D169HOS-0OpenDevice: Opening NvDrv device (1): /dev/nvhost-ctrl-gpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 1, cmd: 0xC0B04705, device: nvhost::CtrlGpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 1, cmd: 0xC0184706, device: nvhost::CtrlGpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 1, cmd: 0x80044701, device: nvhost::CtrlGpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 1, cmd: 0x80284702, device: nvhost::CtrlGpu
+D169HOS-0Service: INvDrvServices::QueryEvent
+D169HOS-0QueryEvent: fd: 1, eventId: 0x2, device: nvhost::CtrlGpu
+D169HOS-0QueryEvent: FD: 1, Event ID: 2, Handle: 0xD023
+D169HOS-0Service: INvDrvServices::Open
+D169HOS-0OpenDevice: Opening NvDrv device (2): /dev/nvhost-as-gpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 2, cmd: 0x40284109, device: nvhost::AsGpu
+D169HOS-0AllocAsEx: bigPageSize: 0x10000, asFd: 0, flags: 0x1, vaRangeStart: 0x0, vaRangeEnd: 0x0, vaRangeSplit: 0x0
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 2, cmd: 0xC0404108, device: nvhost::AsGpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 2, cmd: 0xC0184102, device: nvhost::AsGpu
+D169HOS-0AllocSpace: pages: 0x10000, pageSize: 0x10000, flags: ( fixed: false, sparse: false ), offset: 0x10000
+D169HOS-0Service: INvDrvServices::Open
+D169HOS-0OpenDevice: Opening NvDrv device (3): /dev/nvmap
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D169HOS-0Create: handle: 4, size: 0x10000
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D169HOS-0Alloc: handle: 4, flags: ( mapUncached: false, keepUncachedAfterFree: false ), align: 0x20000, kind: 0, address: 0x1800887000
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D169HOS-0MapBufferEx: flags: ( fixed: true, remap: false ), kind: 0, handle: 4, bufferOffset: 0x0, mappingSize: 0x10000, offset: 0x400000000
+D169HOS-0MapBufferEx: Mapped to 0x400000000
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D169HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 254, handle: 4, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D169HOS-0MapBufferEx: Mapped to 0x500000000
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 1, cmd: 0x80084714, device: nvhost::CtrlGpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D169HOS-0Create: handle: 8, size: 0x1000
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D169HOS-0Alloc: handle: 8, flags: ( mapUncached: true, keepUncachedAfterFree: false ), align: 0x1000, kind: 0, address: 0x1800898000
+D169HOS-0Service: INvDrvServices::Open
+D169HOS-0OpenDevice: Opening NvDrv device (4): /dev/nvhost-gpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 2, cmd: 0x40044101, device: nvhost::AsGpu
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 4, cmd: 0x40044801, device: nvhost::GpuChannel
+D169HOS-0SetNvmapFd: id: 3
+D169HOS-0Service: INvDrvServices::Ioctl
+D169HOS-0Ioctl: fd: 4, cmd: 0xC020481A, device: nvhost::GpuChannel
+D169HOS-0AllocGpfifoEx2: numEntries: 2048, numJobs: 1, flags: 0x0
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 4, cmd: 0xC0104809, device: nvhost::GpuChannel
+D170HOS-0AllocObjCtx: classId: 0xB197, flags: 0x0
+D170HOS-0Service: INvDrvServices::QueryEvent
+D170HOS-0QueryEvent: fd: 4, eventId: 0x3, device: nvhost::GpuChannel
+D170HOS-0QueryEvent: FD: 4, Event ID: 3, Handle: 0xD024
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 4, cmd: 0xC018480C, device: nvhost::GpuChannel
+D170HOS-0SetErrorNotifier: offset: 0x0, size: 0x1000, mem: 0x8
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 4, cmd: 0x40084714, device: nvhost::GpuChannel
+D170HOS-0SetUserData: userData: 0x1801095000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 4, cmd: 0x4004480D, device: nvhost::GpuChannel
+D170HOS-0SetPriority: priority: 100
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D170HOS-0Create: handle: 12, size: 0x10000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D170HOS-0Alloc: handle: 12, flags: ( mapUncached: false, keepUncachedAfterFree: false ), align: 0x20000, kind: 0, address: 0x180089A000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 0, handle: 12, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x500010000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 254, handle: 12, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x500020000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D170HOS-0Create: handle: 16, size: 0x59000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D170HOS-0Alloc: handle: 16, flags: ( mapUncached: true, keepUncachedAfterFree: false ), align: 0x20000, kind: 0, address: 0x18008AB000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 0, handle: 16, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x500030000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 254, handle: 16, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x500090000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 4, cmd: 0xC010480B, device: nvhost::GpuChannel
+D170HOS-0ZcullBind: gpuVa: 0x500038000, mode: 2
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D170HOS-0Create: handle: 20, size: 0x780000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D170HOS-0Alloc: handle: 20, flags: ( mapUncached: true, keepUncachedAfterFree: false ), align: 0x20000, kind: 0, address: 0x1800905000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 0, handle: 20, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x5000F0000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 254, handle: 20, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x500870000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 219, handle: 20, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x500FF0000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: true ), kind: 219, handle: 0, bufferOffset: 0x0, mappingSize: 0x3C0000, offset: 0x500FF0000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: true ), kind: 219, handle: 0, bufferOffset: 0x3C0000, mappingSize: 0x3C0000, offset: 0x500FF0000
+D170HOS-0Service: IHOSBinderDriver::TransactParcel
+D170HOS-0Query: Format: 1
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC008010E, device: NvMap
+D170HOS-0GetId: handle: 20
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080103, device: NvMap
+D170HOS-0FromId: id: 20
+D170HOS-0Service: IHOSBinderDriver::TransactParcel
+D170HOS-0SetPreallocatedBuffer: #0 - Dimensions: 1280x720 [Stride: 1280], Format: RGBA8888, Layout: Blocklinear, Block Height: 16, Usage: 0xB00, NvMap ID: 0, Buffer Start/End: 0x0 -> 0x3C0000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC008010E, device: NvMap
+D170HOS-0GetId: handle: 20
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080103, device: NvMap
+D170HOS-0FromId: id: 20
+D170HOS-0Service: IHOSBinderDriver::TransactParcel
+D170HOS-0SetPreallocatedBuffer: #1 - Dimensions: 1280x720 [Stride: 1280], Format: RGBA8888, Layout: Blocklinear, Block Height: 16, Usage: 0xB00, NvMap ID: 0, Buffer Start/End: 0x3C0000 -> 0x780000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D170HOS-0Create: handle: 24, size: 0x3000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D170HOS-0Alloc: handle: 24, flags: ( mapUncached: true, keepUncachedAfterFree: false ), align: 0x20000, kind: 0, address: 0x1801086000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 254, handle: 24, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x501770000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D170HOS-0Create: handle: 28, size: 0x1000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D170HOS-0Alloc: handle: 28, flags: ( mapUncached: true, keepUncachedAfterFree: false ), align: 0x20000, kind: 0, address: 0x180108A000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: true, remap: false ), kind: 0, handle: 28, bufferOffset: 0x0, mappingSize: 0x10000, offset: 0x400820000
+D170HOS-0MapBufferEx: Mapped to 0x400820000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 254, handle: 28, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x501780000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D170HOS-0Create: handle: 32, size: 0x6000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D170HOS-0Alloc: handle: 32, flags: ( mapUncached: true, keepUncachedAfterFree: false ), align: 0x20000, kind: 0, address: 0x180108C000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 254, handle: 32, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x501790000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0080101, device: NvMap
+D170HOS-0Create: handle: 36, size: 0x1000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 3, cmd: 0xC0200104, device: NvMap
+D170HOS-0Alloc: handle: 36, flags: ( mapUncached: true, keepUncachedAfterFree: false ), align: 0x20000, kind: 0, address: 0x1801093000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: true, remap: false ), kind: 0, handle: 36, bufferOffset: 0x0, mappingSize: 0x10000, offset: 0x400840000
+D170HOS-0MapBufferEx: Mapped to 0x400840000
+D170HOS-0Service: INvDrvServices::Ioctl
+D170HOS-0Ioctl: fd: 2, cmd: 0xC0284106, device: nvhost::AsGpu
+D170HOS-0MapBufferEx: flags: ( fixed: false, remap: false ), kind: 254, handle: 36, bufferOffset: 0x0, mappingSize: 0x0, offset: 0x0
+D170HOS-0MapBufferEx: Mapped to 0x5017A0000
+D170HOS-0Service: INvDrvServices::Open
+D171HOS-0OpenDevice: Opening NvDrv device (5): /dev/nvhost-ctrl
+D171HOS-0Service: IHOSBinderDriver::TransactParcel
+D171HOS-0DequeueBuffer: #0 - Dimensions: 1280x720, Format: RGBA8888, Usage: 0x300, Is Async: false
+D171HOS-0Service: IHOSBinderDriver::TransactParcel
+D171HOS-0RequestBuffer: #0
+D171HOS-0Service: IHOSBinderDriver::TransactParcel
+E171HOS-0Signal: Segmentation fault @ 0x62 (PC: 0x71EAE9AFF4) (SVC: SvcSendSyncRequest)
+Stack Trace:
+* 0x71EAE9AFF4 (skyline::service::hosbinder::GraphicBufferProducer::QueueBuffer(int, long, bool, skyline::service::hosbinder::AndroidRect, skyline::service::hosbinder::NativeWindowScalingMode, skyline::service::hosbinder::NativeWindowTransform, skyline::service::hosbinder::NativeWindowTransform, bool, unsigned int, skyline::service::hosbinder::AndroidFence const&, unsigned int&, unsigned int&, skyline::service::hosbinder::NativeWindowTransform&, unsigned int&) from /data/app/~~wcdaGGmZXJmr4IPDbqpqoA==/skyline.emu-qK6XdaDU7p7VcxXX4j1MvQ==/lib/arm64/libskyline.so)
+* 0x71EAE9D550 (skyline::service::hosbinder::GraphicBufferProducer::OnTransact(skyline::service::hosbinder::GraphicBufferProducer::TransactionCode, skyline::service::hosbinder::Parcel&, skyline::service::hosbinder::Parcel&) from /data/app/~~wcdaGGmZXJmr4IPDbqpqoA==/skyline.emu-qK6XdaDU7p7VcxXX4j1MvQ==/lib/arm64/libskyline.so)
+* 0x71EAE966E4 (skyline::service::hosbinder::IHOSBinderDriver::TransactParcel(skyline::kernel::type::KSession&, skyline::kernel::ipc::IpcRequest&, skyline::kernel::ipc::IpcResponse&) from /data/app/~~wcdaGGmZXJmr4IPDbqpqoA==/skyline.emu-qK6XdaDU7p7VcxXX4j1MvQ==/lib/arm64/libskyline.so)
+* 0x71EAE57224 (skyline::service::BaseService::HandleRequest(skyline::kernel::type::KSession&, skyline::kernel::ipc::IpcRequest&, skyline::kernel::ipc::IpcResponse&) from /data/app/~~wcdaGGmZXJmr4IPDbqpqoA==/skyline.emu-qK6XdaDU7p7VcxXX4j1MvQ==/lib/arm64/libskyline.so)
+* 0x71EAE56490 (skyline::service::ServiceManager::SyncRequestHandler(unsigned int) from /data/app/~~wcdaGGmZXJmr4IPDbqpqoA==/skyline.emu-qK6XdaDU7p7VcxXX4j1MvQ==/lib/arm64/libskyline.so)
+* 0x71EAE0D024 (skyline::kernel::svc::SendSyncRequest(skyline::DeviceState const&) from /data/app/~~wcdaGGmZXJmr4IPDbqpqoA==/skyline.emu-qK6XdaDU7p7VcxXX4j1MvQ==/lib/arm64/libskyline.so)
+* 0x71EADF666C (skyline::nce::NCE::SvcHandler(unsigned short, skyline::nce::ThreadContext*) from /data/app/~~wcdaGGmZXJmr4IPDbqpqoA==/skyline.emu-qK6XdaDU7p7VcxXX4j1MvQ==/lib/arm64/libskyline.so)
+* 0x8000000CC (from simplegfx.nro.patch)
+* 0x80000BD48 (from simplegfx.nro)
+* 0x80000B01C (from simplegfx.nro)
+* 0x8000052CC (from simplegfx.nro)
+* 0x8000011A8 (from simplegfx.nro)
+* 0x800005940 (from simplegfx.nro)
+I366EmuMainEmulation has ended
+I366EmuMainDone in: 365 ms
+I366EmuMainLogging ended
